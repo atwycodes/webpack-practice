@@ -1,0 +1,37 @@
+{
+  "name": "webpack-practice",
+  "version": "1.0.0",
+  "description": "A ... project primarily started as a way for me to practice and get comfortable with using webpack.",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atwycodes/webpack-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atwycodes/webpack-practice/issues"
+  },
+  "homepage": "https://github.com/atwycodes/webpack-practice#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.12",
+    "@babel/preset-env": "^7.20.2",
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
+    "sass": "^1.57.1",
+    "sass-loader": "^13.2.0",
+    "style-loader": "^3.3.1",
+    "webpack": "^5.75.0",
+    "webpack-bundle-analyzer": "^4.7.0",
+    "webpack-cli": "^5.0.1"
+  },
+  "dependencies": {
+    "axios": "^1.2.2"
+  }
+}
